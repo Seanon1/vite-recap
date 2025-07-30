@@ -2,6 +2,7 @@ import Home from "./components/Home"
 import Navbar from "./components/Navbar"
 import About from "./components/About"
 import Projects from "./components/Projects"
+import UserInfo from "./components/UserInfo"
 
 function App() { 
 
@@ -11,6 +12,7 @@ function App() {
       <Home />
       <About />
       <Projects /> 
+      <UserInfo name="James" age={24} address="Nakuru" />
     </>
   )
 }

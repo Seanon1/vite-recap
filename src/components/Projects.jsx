@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/Projects.css'
 
 function Projects() { 
 
@@ -28,7 +29,7 @@ function Projects() {
     
   return (
     <div>
-        <h2>Projects</h2>
+        <h2 className=''> My Projects</h2>
 
         <ul>
             {projects.map(project => (
